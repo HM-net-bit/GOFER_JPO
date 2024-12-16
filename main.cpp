@@ -9,7 +9,7 @@
 #include <vector>
 #include <string>
 #include "ProductList.hpp"
-using std::cout, std::endl, std::vector,std::string;
+using std::cout, std::endl, std::vector,std::string,std::cin;
 
 /**
  * @brief Main function of the program.
@@ -29,7 +29,7 @@ int main() {
 
     while (true) {
         cout << "Input name of produkct: ";
-        getline(std::cin, input);
+        getline(cin, input);
 
         if (input == "stop") {
             break;
