@@ -1,2 +1,0 @@
-Product: Mleko, Quantity: 2
-Product: Czekolada, Quantity: 40
