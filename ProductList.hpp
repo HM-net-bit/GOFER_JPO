@@ -93,7 +93,7 @@ public:
         return;
     }
     
-    //Sprawdzamy czy plik został poprawnie utworzony
+    //Sprawdzamy czy plik został poprawnie otwarty
     ifstream file(filename);
     if (!file) {
         cout << "Error: File " << filename << " does not exist or cannot be opened." << endl;
